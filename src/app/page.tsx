@@ -4,27 +4,33 @@ export default function Home() {
     <main>
       <br></br>
       <div className="container mx-auto">
-        <div className="grid grid-rows-1 grid-flow-col gap-1">
+        <div className="grid grid-rows-2 grid-flow-col gap-1">
           <div>
-            <div className="box-border h-48 w-48 rounded hover:rounded-md border-4 hover:border-sky-200  ">
-              <div className="h-full w-full">
+            <div className="box-border h-[500px] w-[500px] rounded hover:rounded-md border-4  ">
+              <div className="h-full h-full">
                 <MirianPage />
               </div>
             </div>
           </div>
           <div>
-            <div className="box-border h-48 w-48 rounded hover:rounded-md border-4 hover:border-sky-200  ">
-              <div className="h-full w-full "></div>
+            <div className="box-border h-[500px] w-[500px] rounded hover:rounded-md border-4  ">
+              <div className="h-full h-full">
+                <MirianPage />
+              </div>
             </div>
           </div>
           <div>
-            <div className="box-border h-48 w-48 rounded hover:rounded-md border-4 hover:border-sky-200  ">
-              <div className="h-full w-full "></div>
+            <div className="box-border h-[500px] w-[500px] rounded hover:rounded-md border-4  ">
+              <div className="h-full h-full">
+                <MirianPage />
+              </div>
             </div>
           </div>
           <div>
-            <div className="box-border h-48 w-48 rounded hover:rounded-md border-4 hover:border-sky-200  ">
-              <div className="h-full w-full "></div>
+            <div className="box-border h-[500px] w-[500px] rounded hover:rounded-md border-4  ">
+              <div className="h-full h-full">
+                <MirianPage />
+              </div>
             </div>
           </div>
         </div>
