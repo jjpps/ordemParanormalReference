@@ -1,5 +1,4 @@
-import Image from "next/image";
-
+import { MirianPage } from "./MirianPage";
 export default function Home() {
   return (
     <main>
@@ -8,7 +7,9 @@ export default function Home() {
         <div className="grid grid-rows-1 grid-flow-col gap-1">
           <div>
             <div className="box-border h-48 w-48 rounded hover:rounded-md border-4 hover:border-sky-200  ">
-              <div className="h-full w-full "></div>
+              <div className="h-full w-full">
+                <MirianPage />
+              </div>
             </div>
           </div>
           <div>
