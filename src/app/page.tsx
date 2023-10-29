@@ -1,4 +1,4 @@
-import { MirianPage } from "./MirianPage";
+import { CharacterPage } from "./CharacterPage";
 export default function Home() {
   return (
     <main>
@@ -8,28 +8,28 @@ export default function Home() {
           <div>
             <div className="box-border h-[500px] w-[500px] rounded hover:rounded-md border-4  ">
               <div className="h-full h-full">
-                <MirianPage />
+                <CharacterPage />
               </div>
             </div>
           </div>
           <div>
             <div className="box-border h-[500px] w-[500px] rounded hover:rounded-md border-4  ">
               <div className="h-full h-full">
-                <MirianPage />
+                <CharacterPage />
               </div>
             </div>
           </div>
           <div>
             <div className="box-border h-[500px] w-[500px] rounded hover:rounded-md border-4  ">
               <div className="h-full h-full">
-                <MirianPage />
+                <CharacterPage />
               </div>
             </div>
           </div>
           <div>
             <div className="box-border h-[500px] w-[500px] rounded hover:rounded-md border-4  ">
               <div className="h-full h-full">
-                <MirianPage />
+                <CharacterPage />
               </div>
             </div>
           </div>
